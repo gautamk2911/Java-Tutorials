@@ -1,8 +1,8 @@
-**Java Programming Course Outline (20-Day / 40-Hour Plan)**
+# Java Programming Course Outline (20-Day / 40-Hour Plan)
 
 ---
 
-**1. Course Overview**
+## 1. Course Overview
 This course provides a comprehensive foundation in Java programming, focusing on core concepts, object-oriented programming, file handling, exceptions, collections, and functional programming. The course is designed for beginners and intermediate learners aiming to gain hands-on experience and conceptual clarity.
 
 **Duration**: 20 Days  
@@ -11,7 +11,7 @@ This course provides a comprehensive foundation in Java programming, focusing on
 
 ---
 
-**2. Teaching Methodology**
+## 2. Teaching Methodology
 - **Interactive Lectures**: Concept-driven sessions with real-world analogies
 - **Hands-on Practicals**: Daily coding practice in lab sessions
 - **Mini-Projects**: Simple projects to apply learned concepts
@@ -21,9 +21,9 @@ This course provides a comprehensive foundation in Java programming, focusing on
 
 ---
 
-**3. Refined Syllabus**
+## **3. Refined Syllabus**
 
-**Unit I: Java Fundamentals**
+### **Unit I: Java Fundamentals**
 - History and Features of Java
 - Program Structure, Writing a Simple Class, `main()` method
 - JDK, JRE, and JVM
@@ -32,44 +32,44 @@ This course provides a comprehensive foundation in Java programming, focusing on
 - Operators: Arithmetic, Logical, Relational, etc.
 - Conditional Statements: `if/else`, `switch-case`
 
-**Unit II: Control Flow and OOP**
+### **Unit II: Control Flow and OOP**
 - Loops: `for`, `while`, `do-while`, `for-each`
 - Arrays and Multi-dimensional Arrays, Varargs, Enums
 - Classes, Objects, Constructors, Methods
 - Overloading, `this`, Initializer Blocks
 - `String` and `StringBuilder` Classes
 
-**Unit III: Inheritance and Interfaces**
+### **Unit III: Inheritance and Interfaces**
 - Inheritance, Method Overriding, `super`, `final`
 - Object Class Methods: `toString()`, `equals()`
 - Abstract Classes, Interfaces, Static & Default Methods
 
-**Unit IV: Functional Programming & Utilities**
+### **Unit IV: Functional Programming & Utilities**
 - Lambda Expressions and Functional Interfaces
 - Lambda with Threads and Event Handling
 - Anonymous and Local Classes (Intro only)
 - Working with Dates: `java.time` API
 
-**Unit V: Exceptions & I/O**
+### **Unit V: Exceptions & I/O**
 - Types of Exceptions, Exception Handling (`try/catch/finally`)
 - `throw`, `throws`, Multi-catch, Try-with-resources
 - Creating Custom Exceptions, Assertions
 - Console I/O, File Streams, Serialization (Basics)
 
-**Unit VI: Collections & Generics**
+### **Unit VI: Collections & Generics**
 - Generics: Diamond Operator, Bounded Types
 - Collections: `ArrayList`, `HashMap`, `TreeSet`, `Deque`
 - Comparators and Sorting Mechanisms
 
 ---
 
-**4. Day-Wise Plan (Sample Bifurcation)**
+## **4. Day-Wise Plan (Sample Bifurcation)**
 
 | Day | Lecture Topics                             | Practical Topics                                  |
 |-----|--------------------------------------------|--------------------------------------------------|
 | 1   | Java Intro, Setup, Hello World             | Writing first Java class                        |
 | 2   | Data Types, Variables, Type Conversion     | Practice variable declaration, operations       |
-| 3   | Operators, Conditionals                    | Simple calculator app                           |
+| 3   | Wrapper Classes, Operators, Conditionals   | Simple calculator app                           |
 | 4   | Loops: for, while, do-while                | Patterns and loop-based programs                |
 | 5   | Arrays and Enums                           | Array manipulations                             |
 | 6   | OOP: Classes, Constructors, Methods        | Define and use multiple classes                 |
@@ -88,11 +88,9 @@ This course provides a comprehensive foundation in Java programming, focusing on
 | 19  | Deque, Review                              | Practice collection tasks                       |
 | 20  | Mini Project / Assessment & Feedback       | Project demo and Q&A                            |
 
-**Bonus (Day 2 Practical Add-on)**: Wrapper Classes — Using `Integer.parseInt()`, `Double.valueOf()`, `Character.isDigit()`
-
 ---
 
-**5. Outcome**
+## **5. Outcome**
 By the end of this course, students will be able to:
 - Understand and apply OOP principles using Java
 - Write clean, structured, and modular Java code
@@ -103,15 +101,13 @@ By the end of this course, students will be able to:
 
 ---
 
-**6. Tools & Technologies**
+## **6. Tools & Technologies**
 - Java SE (JDK 17 or latest stable)
-- IDEs: IntelliJ IDEA / Eclipse / VS Code
-- Text Editor: Notepad++ (optional)
-- Online Compiler (for demo): JDoodle / Replit
-
+- IDEs: Eclipse / VS Code
+- Text Editor: Notepad++
 ---
 
-**7. Assessment Plan**
+## **7. Assessment Plan**
 - Weekly Quizzes (MCQ or coding snippets)
 - Final Mini Project (individual or pair)
 - Participation in class and practicals
@@ -119,27 +115,27 @@ By the end of this course, students will be able to:
 
 ---
 
-**8. Mini Project Ideas**
+## **8. Mini Project Ideas**
 Students can choose one of the following projects for final evaluation:
 
-1. **Student Management System**  
+### 1. **Student Management System**  
    Add, update, delete, and list student records using collections and file handling.
 
-2. **Library Book Tracker**  
+### 2. **Library Book Tracker**  
    Manage library books and users, with issue/return tracking using OOP and exceptions.
 
-3. **To-Do List Application**  
+### 3. **To-Do List Application**  
    Create a console-based to-do manager with date-based filtering and serialization.
 
-4. **Banking Console App**  
+### 4. **Banking Console App**  
    Simulate basic banking operations like deposit, withdraw, and account summary using classes and inheritance.
 
-5. **Quiz Application**  
+### 5. **Quiz Application**  
    Display multiple choice questions and calculate score using arrays and file reading.
 
 ---
 
-**9. Mini Project Evaluation Rubric (Total: 50 Marks)**
+## **9. Mini Project Evaluation Rubric (Total: 50 Marks)**
 
 | Criteria                          | Max Marks | Description                                                                 |
 |----------------------------------|-----------|-----------------------------------------------------------------------------|
@@ -153,7 +149,8 @@ Students can choose one of the following projects for final evaluation:
 
 ---
 
-**Prepared By**: [Your Name]  
-**Designation**: Java Trainer  
-**Contact**: [Your Email/Phone]
+#### **Prepared By**: Gautam Krishna 
+#### **Designation**: Java Trainer  
+#### **Contact**: 9855381924
+#### **Email**: gautamkrishna2911@gmail.com
 
