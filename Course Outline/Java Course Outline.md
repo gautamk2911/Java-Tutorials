@@ -1,11 +1,10 @@
-# Java Programming Course Outline (20-Day / 40-Hour Plan)
+# Java Programming Course Outline (40-Hour Plan)
 
 ---
 
 ## 1. Course Overview
 This course provides a comprehensive foundation in Java programming, focusing on core concepts, object-oriented programming, file handling, exceptions, collections, and functional programming. The course is designed for beginners and intermediate learners aiming to gain hands-on experience and conceptual clarity.
-
-**Duration**: 20 Days  
+ 
 **Total Hours**: 40 Hours  
 **Daily Schedule**: 2 Hours/Day (1 Hour Lecture + 1 Hour Practical)
 
