@@ -1,94 +1,139 @@
+# 🧾 Java Programming Workshop — Syllabus Overview
 
----
-
-## 📘 **Refined Java Syllabus (20-Day Course)**
-
----
-
-### **Unit I: Java Fundamentals**
+### 📘 **1. Java Fundamentals**
 - History and Features of Java  
 - Java Program Structure  
-- Writing a Simple Java Class with `main()`  
-- Command-Line Arguments  
-- Understanding JDK, JRE, and JVM  
+- JVM, JDK, JRE – Roles and Differences  
+- Writing and Compiling a Basic Java Program  
+- Command Line Arguments  
 
-#### **Data Types & Variables**
-- Primitive Data Types  
-- Type Conversion  
-- Keywords, Identifiers, Variables  
-- Access Modifiers (`public`, `private`, etc.)  
-- `static` Keyword  
+---
+
+### 🧮 **2. Data Types and Operators**
+- Primitive Data Types & Type Conversion  
+- Identifiers, Variables, and Keywords  
 - Wrapper Classes  
-
-#### **Operators & Conditionals**
-- Arithmetic, Logical, Relational, Bitwise Operators  
-- Unary, Assignment, and Ternary Operators  
-- Operator Precedence  
-- Conditional Statements: `if/else`, `switch-case`
+- Arithmetic, Logical, Bitwise, Relational, Assignment, and Ternary Operators  
 
 ---
 
-### **Unit II: Control Flow and Object-Oriented Programming**
-#### **Loops & Arrays**
-- `for`, `while`, `do-while`, and `for-each` Loops  
-- Single & Multi-dimensional Arrays  
-- Array Iteration and Access  
-- Using Varargs  
-- Enumerations (`enum`)
-
-#### **OOP Basics**
-- Defining Classes and Objects  
-- Constructors and Methods  
-- Overloading (Methods & Constructors)  
-- `this` Keyword  
-- Initializer Blocks
-
-#### **Working with Strings**
-- `String` and `StringBuilder` Classes  
-- String Manipulation Methods  
+### 🔀 **3. Control Flow**
+- Conditional Constructs: `if`, `else`, `nested-if`, `switch`  
+- Looping Constructs: `for`, `while`, `do-while`, `for-each`  
+- Loop Control: `break`, `continue`, nested loops  
+- Use of Control Flow in Practical Scenarios  
 
 ---
 
-### **Unit III: Inheritance, Interfaces & Polymorphism**
-- Inheritance & Method Overriding  
-- `super` Keyword  
-- Object Class: Overriding `toString()` and `equals()`  
-- `final` Keyword and `instanceof` Operator  
+### 🧱 **4. Arrays and Enums**
+- One-dimensional and Multi-dimensional Arrays  
+- Iteration Techniques with Arrays  
+- Varargs  
+- Enum Declaration and Usage  
+
+---
+
+### 🧑‍🏫 **5. Object-Oriented Programming Basics**
+- Classes and Objects  
+- Constructors and Constructor Overloading  
+- Method Overloading  
+- `this` Keyword, Initializer Blocks  
+
+---
+
+### 🔡 **6. Working with Strings**
+- The `String` Class: Immutability, Common Methods  
+- Using `StringBuilder` and `StringBuffer`  
+
+---
+
+### 🧬 **7. Inheritance and Polymorphism**
+- Types of Inheritance  
+- `super` Keyword and Method Overriding  
+- `Object` Class: `toString()`, `equals()`, `instanceof`  
+
+---
+
+### 🧩 **8. Abstraction and Interfaces**
 - Abstract Classes and Methods  
-- Interfaces: Including Static and Default Methods  
+- Interfaces, Static and Default Methods  
+- Multiple Inheritance with Interfaces  
 
 ---
 
-### **Unit IV: Functional Programming & Utility Classes**
-- Functional Interfaces and Lambda Expressions  
-- Using Lambda for Threads and Event Handling  
-- Anonymous and Local Classes (Intro only)  
-- **Working with Dates**: `java.time` (LocalDate, LocalDateTime, etc.)
+### 🧾 **9. Nested Classes and Lambda Expressions**
+- Static and Non-static Nested Classes  
+- Local and Anonymous Classes  
+- Functional Interfaces  
+- Lambda Expressions and Use Cases  
 
 ---
 
-### **Unit V: Exception Handling & File I/O**
-- Types of Exceptions & Exception Hierarchy  
-- `try`, `catch`, `finally` Blocks  
-- `throw`, `throws`, and Multi-catch  
-- Try-with-resources  
-- Creating Custom Exceptions  
-- Assertions for Invariant Checking  
-
-#### **File I/O Basics**
-- Console I/O  
-- Reading/Writing Files using Streams  
-- Serialization (Basic Overview)
+### 🛡️ **10. Exception Handling**
+- Try-Catch-Finally Block  
+- `throw` and `throws`, Custom Exceptions  
+- Multi-Catch Block  
+- Try-with-Resources  
+- Assertions  
 
 ---
 
-### **Unit VI: Collections & Generics**
-- Generic Types & Diamond Operator  
-- Bounded Types and Wildcards (Conceptual)  
-- Using Collections Framework:
-  - `ArrayList`
-  - `HashMap`
-  - `TreeSet` with `Comparable` and `Comparator`
-  - `Deque`
+### 🗓️ **11. Utility Classes**
+- `java.util.Date` and Date Formatting  
+- Building a Simple Date Utility Project  
+
+---
+
+### 🧵 **12. Multithreading and Concurrency**
+- Creating Threads and Lifecycle  
+- `Runnable` Interface  
+- Synchronization and Thread States  
+- Using Lambda with Threads  
+
+---
+
+### 📂 **13. Java I/O Streams**
+- File I/O with `FileReader`, `FileWriter`, `BufferedReader`, `BufferedWriter`  
+- Hands-on: Reading/Writing to Files  
+
+---
+
+### 🔄 **14. Object Serialization and Console I/O**
+- `Serializable` Interface  
+- Reading/Writing Objects  
+- Using Console I/O for Interaction  
+
+---
+
+### 🧺 **15. Generics in Java**
+- Generic Classes and Methods  
+- Bounded Types  
+- Wildcards and Diamond Operator  
+
+---
+
+### 🗃️ **16. Collections Framework**
+- `List`, `Set`, `ArrayList`, `TreeSet`  
+- `Comparator` vs `Comparable` and Real-life Use Cases  
+
+---
+
+### 🗺️ **17. Maps and Queues**
+- `HashMap`, `LinkedHashMap`, `TreeMap`  
+- `Deque`, `Stack`, `Queue` Implementations  
+
+---
+
+### 🧷 **18. JDBC (Java Database Connectivity)**
+- JDBC Drivers and Architecture  
+- Connection, Statement, ResultSet  
+- CRUD Operations with MySQL  
+- Basic Error Handling in JDBC  
+
+---
+
+### 🛠️ **19. Final Integration and Project**
+- Mini Project (Examples: Inventory App, Student Info System)  
+- Code Walkthrough, Peer Review, and Viva  
 
 ---
