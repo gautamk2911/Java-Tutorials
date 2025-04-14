@@ -63,29 +63,87 @@ This course provides a comprehensive foundation in Java programming, focusing on
 ---
 
 ## **4. Day-Wise Plan (Sample Bifurcation)**
+---
+#### **Workshop Day 1: Getting Started with Java**
+- **Session 1**: Java History, Features, JVM, JDK, JRE, Structure of Java Program
+- **Session 2**: Writing first Java program, CLI arguments, Compilation, and Execution
 
-| Day | Lecture Topics                             | Practical Topics                                  |
-|-----|--------------------------------------------|--------------------------------------------------|
-| 1   | Java Intro, Setup, Hello World             | Writing first Java class                        |
-| 2   | Data Types, Variables, Type Conversion     | Practice variable declaration, operations       |
-| 3   | Wrapper Classes, Operators, Conditionals   | Simple calculator app                           |
-| 4   | Loops: for, while, do-while                | Patterns and loop-based programs                |
-| 5   | Arrays and Enums                           | Array manipulations                             |
-| 6   | OOP: Classes, Constructors, Methods        | Define and use multiple classes                 |
-| 7   | Method Overloading, `this` Keyword         | Constructor and method examples                 |
-| 8   | Strings and StringBuilder                  | String operations                               |
-| 9   | Inheritance and Method Overriding          | Subclass examples                               |
-| 10  | Interfaces and Abstract Classes            | Interface implementation                        |
-| 11  | Lambda Expressions, Functional Interfaces  | Lambda with threads                             |
-| 12  | Working with Dates                         | Date manipulation app                           |
-| 13  | Exception Handling Basics                  | Try/catch exercises                             |
-| 14  | Custom Exceptions, Assertions              | Custom error classes                            |
-| 15  | File I/O Basics                            | File read/write                                 |
-| 16  | Serialization                              | Save/load objects                               |
-| 17  | Generics and ArrayList                     | Generic classes and collections                 |
-| 18  | TreeSet, HashMap, Comparators              | Sorting and lookup examples                     |
-| 19  | Deque, Review                              | Practice collection tasks                       |
-| 20  | Mini Project / Assessment & Feedback       | Project demo and Q&A                            |
+#### **Workshop Day 2: Data Types and Operators**
+- **Session 3**: Variables, Identifiers, Data types, Type conversion, Wrapper classes
+- **Session 4**: Arithmetic, Logical, Bitwise, Relational, Assignment, Ternary Operators
+
+#### **Workshop Day 3: Control Statements**
+- **Session 5**: if-else, Nested if, switch-case constructs
+- **Session 6**: Practical Implementation with Condition-based Programs
+
+#### **Workshop Day 4: Loops and Flow Control**
+- **Session 7**: for, while, do-while, for-each loop
+- **Session 8**: Break, continue, nested loops with use-cases
+
+#### **Workshop Day 5: Arrays and Enums**
+- **Session 9**: Single & Multi-dimensional arrays, Iteration techniques, varargs
+- **Session 10**: Enum creation and usage
+
+#### **Workshop Day 6: OOP Basics**
+- **Session 11**: Defining classes/objects, constructors, overloading
+- **Session 12**: this keyword, initializer blocks, method overloading practice
+
+#### **Workshop Day 7: Working with Strings**
+- **Session 13**: String class, immutability, methods
+- **Session 14**: StringBuilder & StringBuffer usage
+
+#### **Workshop Day 8: Inheritance and Polymorphism**
+- **Session 15**: Types of Inheritance, super keyword, method overriding
+- **Session 16**: Object class, toString(), equals(), instanceof
+
+#### **Workshop Day 9: Abstract Classes and Interfaces**
+- **Session 17**: Abstract classes, abstract methods, static & default methods
+- **Session 18**: Interface implementation, multiple inheritance with interfaces
+
+#### **Workshop Day 10: Nested Classes & Lambda**
+- **Session 19**: Static, non-static nested classes, local & anonymous classes
+- **Session 20**: Functional Interfaces, Lambda Expressions
+
+#### **Workshop Day 11: Exception Handling Basics**
+- **Session 21**: Try-catch-finally, multiple catch, custom exceptions
+- **Session 22**: Throw, throws, try-with-resources, Assertions
+
+#### **Workshop Day 12: Java Utility Classes**
+- **Session 23**: java.util.Date, formatting dates
+- **Session 24**: Workshop: Build a calendar utility
+
+#### **Workshop Day 13: Multithreading & Concurrency**
+- **Session 25**: Thread creation, lifecycle, Runnable interface
+- **Session 26**: Synchronization, thread states, Lambda in threads
+
+#### **Workshop Day 14: Java I/O Streams**
+- **Session 27**: FileReader, FileWriter, BufferedReader, BufferedWriter
+- **Session 28**: Practical with file read/write operations
+
+#### **Workshop Day 15: Object Serialization & Console I/O**
+- **Session 29**: Object streams, Serializable interface
+- **Session 30**: Hands-on: Save and retrieve objects
+
+#### **Workshop Day 16: Generics in Java**
+- **Session 31**: Generic classes, methods, bounded types
+- **Session 32**: Wildcards, Diamond operator, Real-use examples
+
+#### **Workshop Day 17: Collection Framework Basics**
+- **Session 33**: List, ArrayList, Set, TreeSet
+- **Session 34**: Comparator vs Comparable, use-cases
+
+#### **Workshop Day 18: Maps and Deques**
+- **Session 35**: HashMap, LinkedHashMap, TreeMap
+- **Session 36**: Deque, Stack, Queue implementations
+
+#### **Workshop Day 19: JDBC (Java Database Connectivity)**
+- **Session 37**: JDBC Drivers, Connection, Statement, ResultSet
+- **Session 38**: CRUD operations with MySQL, Error handling
+
+#### **Workshop Day 20: Final Integration and Projects**
+- **Session 39**: Mini Project (E.g., Inventory, Student Info System)
+- **Session 40**: Project Demo, Peer Code Review, Viva
+
 
 ---
 
