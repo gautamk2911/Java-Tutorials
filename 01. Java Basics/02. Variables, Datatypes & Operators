@@ -1,0 +1,170 @@
+
+Welcome to **Day 2** of the Java Workshop! Today, we dived into fundamental building blocks of Java programming: variables, data types, and a variety of operators. This forms the core logic behind any program.
+
+---
+
+
+# 🔹 Variables and Identifiers
+
+- **Variable**: A container for storing data values.
+- **Identifier**: The name of a variable, method, class, etc.
+- **Rules for naming identifiers:**
+  - Can include letters, digits, underscores, and dollar signs.
+  - Cannot start with a digit.
+  - Case-sensitive (`myVar` ≠ `MyVar`).
+  - Cannot be a reserved keyword.
+
+```java
+int age = 25;
+String name = "Alice";
+```
+
+---
+
+# 🔹 Data Types in Java
+
+#### Primitive Types:
+| Type     | Size     | Example         |
+|----------|----------|------------------|
+| `byte`   | 1 byte   | `byte b = 10;`   |
+| `short`  | 2 bytes  | `short s = 1000;`|
+| `int`    | 4 bytes  | `int i = 100;`   |
+| `long`   | 8 bytes  | `long l = 9999L;`|
+| `float`  | 4 bytes  | `float f = 2.5f;`|
+| `double` | 8 bytes  | `double d = 3.14;`|
+| `char`   | 2 bytes  | `char c = 'A';`  |
+| `boolean`| 1 bit    | `boolean flag = true;`|
+
+#### Non-Primitive (Reference) Types:
+- Strings
+- Arrays
+- Classes
+- Interfaces
+
+---
+
+### 🔹 Type Conversion
+
+#### Implicit (Widening Conversion)
+```java
+int a = 10;
+double b = a; // int to double automatically
+```
+
+#### Explicit (Narrowing Conversion)
+```java
+double x = 10.5;
+int y = (int) x; // double to int manually
+```
+
+---
+
+# 🔹 Wrapper Classes
+
+Primitive types are not objects, but wrapper classes turn them into objects.
+
+| Primitive | Wrapper Class |
+|-----------|----------------|
+| `int`     | `Integer`      |
+| `char`    | `Character`    |
+| `double`  | `Double`       |
+
+## Autoboxing:
+```java
+Integer num = 5; // int to Integer automatically
+```
+
+## Unboxing:
+```java
+int n = num; // Integer to int
+```
+
+---
+# Operators
+
+Operators are symbols that perform operations on variables and values.
+
+---
+
+### 🔹 Arithmetic Operators
+
+Used for basic math:
+
+```java
+int a = 10, b = 5;
+System.out.println(a + b); // 15
+System.out.println(a - b); // 5
+System.out.println(a * b); // 50
+System.out.println(a / b); // 2
+System.out.println(a % b); // 0
+```
+
+---
+
+### 🔹 Relational (Comparison) Operators
+
+Used to compare two values:
+
+```java
+System.out.println(a > b);  // true
+System.out.println(a == b); // false
+```
+
+---
+
+### 🔹 Logical Operators
+
+Used with boolean values:
+
+```java
+boolean x = true, y = false;
+System.out.println(x && y); // false
+System.out.println(x || y); // true
+System.out.println(!x);     // false
+```
+
+---
+
+### 🔹 Bitwise Operators
+
+Used to perform operations on bits:
+
+```java
+int x = 5, y = 3;
+System.out.println(x & y); // 1
+System.out.println(x | y); // 7
+System.out.println(x ^ y); // 6
+System.out.println(~x);    // -6 (2's complement)
+```
+
+---
+
+### 🔹 Assignment Operators
+
+```java
+int a = 10;
+a += 5; // a = a + 5
+a *= 2; // a = a * 2
+```
+
+---
+
+### 🔹 Ternary Operator
+
+```java
+int age = 20;
+String result = (age >= 18) ? "Adult" : "Minor";
+```
+
+---
+
+## 🧪 Practice Time
+
+Try implementing the following:
+
+1. Write a program to check if a number is even or odd using the ternary operator.
+2. Create a calculator that performs basic arithmetic operations.
+3. Convert a `char` to its ASCII value and vice versa using type casting.
+4. Use wrapper classes to convert strings to numbers.
+
+---
