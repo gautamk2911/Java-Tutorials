@@ -1,0 +1,142 @@
+
+# Loops and Flow Control
+
+---
+
+## 🧠 Why Loops?
+
+Loops help repeat a block of code multiple times, saving time and avoiding repetition.
+
+---
+
+## 🔁 1. `for` Loop
+
+**Used when**: You know how many times to repeat
+
+```java
+for (int i = 1; i <= 5; i++) {
+    System.out.println("Hello " + i);
+}
+```
+
+✅ Used for counting, summing, printing patterns, etc.
+
+---
+
+## 🔁 2. `while` Loop
+
+**Used when**: You want to repeat **as long as** a condition is true
+
+```java
+int i = 1;
+while (i <= 5) {
+    System.out.println(i);
+    i++;
+}
+```
+
+✅ Best for condition-based repetition (e.g., until user logs in)
+
+---
+
+## 🔁 3. `do-while` Loop
+
+**Used when**: Code should run **at least once**, even if the condition is false
+
+```java
+int i = 1;
+do {
+    System.out.println(i);
+    i++;
+} while (i <= 5);
+```
+
+✅ Commonly used for menu-driven programs
+
+---
+
+## 🔁 4. `for-each` Loop
+
+**Used when**: Iterating over arrays or collections
+
+```java
+int[] numbers = {10, 20, 30};
+for (int num : numbers) {
+    System.out.println(num);
+}
+```
+
+✅ Cleaner syntax for arrays
+
+---
+
+## 🔄 Flow Control Statements
+
+### 🔹 `break`
+
+Stops the loop immediately.
+
+```java
+for (int i = 1; i <= 10; i++) {
+    if (i == 5) break;
+    System.out.println(i);
+}
+```
+
+✅ Used for exiting early (e.g., on error or condition met)
+
+---
+
+### 🔹 `continue`
+
+Skips the current iteration and continues with the next.
+
+```java
+for (int i = 1; i <= 5; i++) {
+    if (i == 3) continue;
+    System.out.println(i);
+}
+```
+
+✅ Used to skip unwanted cases (e.g., skip even numbers)
+
+---
+
+### 🔁 Nested Loops
+
+Loops inside loops.
+
+```java
+for (int i = 1; i <= 3; i++) {
+    for (int j = 1; j <= 2; j++) {
+        System.out.println("i=" + i + ", j=" + j);
+    }
+}
+```
+
+✅ Commonly used in patterns, grids, and matrices
+
+---
+
+## 🧪 Practice Problems
+
+1. Print numbers 1 to 100 using `for`
+2. Find sum of first N numbers using `while`
+3. Menu-driven calculator using `do-while`
+4. Print table of a number
+
+
+---
+
+## 🧠 Summary Table
+
+| Loop Type      | When to Use                             |
+|----------------|------------------------------------------|
+| `for`          | Fixed number of iterations               |
+| `while`        | Repeat as long as a condition is true    |
+| `do-while`     | Run at least once, check condition later |
+| `for-each`     | Looping through arrays/collections       |
+| `break`        | Exit loop early                          |
+| `continue`     | Skip current iteration                   |
+
+---
