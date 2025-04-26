@@ -36,9 +36,10 @@ Java-Tutorials/
 ├── 01_Basics/
 ├── 02_OOPs/
 ├── 03_ExceptionHandling/
-├── 04_Collections/
-├── 05_FileHandling/
-├── 06_Threads/
+├── 04_Generics/
+├── 05_Collections/
+├── 06_FileHandling/
+├── 07_Threads/
 └── README.md
 ```
 
