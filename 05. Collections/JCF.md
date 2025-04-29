@@ -5,7 +5,7 @@
 
 ## 🧭 Collections Hierarchy Diagram
 
-![Java Collections Framework Hierarchy](https://www.startertutorials.com/corejava/images/collections-hierarchy.png)
+![Java Collections Hierarchy](collections-hierarchy.png)
 
 
 ---
