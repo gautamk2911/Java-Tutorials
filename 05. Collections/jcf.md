@@ -42,19 +42,7 @@ Here’s the basic structure of the Collections Framework:
 
 ```
 
-Collection (Interface)
-├── List (Interface)
-│    ├── ArrayList
-│    ├── LinkedList
-├── Set (Interface)
-│    ├── HashSet
-│    ├── TreeSet
-└── Queue (Interface)
-├── PriorityQueue
 
-Map (Interface)
-├── HashMap
-├── TreeMap
 
 ````
 
@@ -189,5 +177,5 @@ public class ComparableDemo {
 | Map       | HashMap        | ❌ No         | ❌ (Keys)    | ✅ Yes      |
 | Queue     | PriorityQueue  | ✅ Yes (FIFO) | ✅ Yes       | ❌ No       |
 
----
+
 ```
